@@ -121,6 +121,12 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.about div, .services div {
+    padding: 5px 0px;
 }
 
 .about h3, .services h1 {
@@ -142,6 +148,14 @@ img {
     color: black;
     color: white;
     font-family: 'Orpheus Pro';
+}
+
+.s-bg {
+    background: midnightblue;
+}
+
+.a-bg {
+
 }
 
 .about p {
@@ -369,7 +383,7 @@ svg {
 
 footer {
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
         align-items: center;
         margin: 0 auto;
         color: white;
@@ -390,6 +404,13 @@ footer {
         color: black;
     }
 
+    .logo-tmark {
+        padding-top: 100px;
+    }
+
+    .mail {
+        color: black;
+    }
 /* .img-section img {
     width: 100%;
 } */
