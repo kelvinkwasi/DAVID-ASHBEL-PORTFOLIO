@@ -411,6 +411,17 @@ footer {
     .mail {
         color: black;
     }
+
+.footer a:hover, .links a:hover {
+    fill: blue;
+    color: blue;
+} 
+
+.nav-bg a:hover {
+    color: blue;
+}
+
+
 /* .img-section img {
     width: 100%;
 } */
