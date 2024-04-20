@@ -291,6 +291,10 @@ img {
     align-items: center;
 }
 
+.oh-img img {
+    object-position: center top;
+}
+
 .expert {
     display: flex;
     place-content: center;
