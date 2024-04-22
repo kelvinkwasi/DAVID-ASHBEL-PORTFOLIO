@@ -42,10 +42,13 @@ animation: bg-animation 4s infinite;
 
 @keyframes bg-animation {
     0% {
-        background-position: left;
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
     }
     100% {
-        background-position: right;
+        background-position: 0% 50%;
     }
 }
 
@@ -458,6 +461,54 @@ footer {
 .nav-bg a:hover {
     color: blue;
 }
+
+.testimonial-wrapper {
+    padding: 40px 0px;
+    background-color: aqua;
+    position: relative;
+    z-index: -1;
+    background-image: linear-gradient(to left, #f8f4f4, #faf7f7, #fbfafa, #fdfcfd, #ffffff);
+}
+
+.tes-wrapper1 {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    max-width: 89%;
+    margin: 0 auto;
+    gap: 2em;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thumbnail img{
+    /* width: 24%; */
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 10em;
+    display: flex;
+    margin: 0 auto;
+    z-index: -2;
+    /* justify-content: center; */
+    place-content: center;
+}
+
+.thumbnail p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tes-images {
+    max-width: 500px;
+}
+
 
 
 /* .img-section img {
