@@ -75,8 +75,8 @@ header {
     padding: 2em;
     width: 40em;
     margin: 0 auto;
-    border-radius:  10em;
-    
+    border-radius:  1em;
+    border: 0.5px solid; 
 }
 
 nav ul {
@@ -151,6 +151,10 @@ img {
     border-radius: 1.2em;
     filter: grayscale(70%);
     z-index: -1;
+}
+
+.img-grid {
+    max-width: 600px;
 }
 
 .about, .services{
@@ -249,16 +253,16 @@ img {
     width: 60%;
 }
 
-.grid {
+/* .grid {
     width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-}
+} */
 
 /* .grid .left-col-alt {
     display: flex;
@@ -362,6 +366,23 @@ img {
     justify-content: start;
     flex-direction: column;
     max-width: 500px;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.img-grid {
+    max-width: 600px;
+}
+
+.img-grid img {
+    width: 100%;
+    height: 45em;
+    object-position: center;
+    object-fit: cover;
 }
 
 .ovr {
