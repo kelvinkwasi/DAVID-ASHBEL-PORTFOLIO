@@ -374,7 +374,7 @@ img {
     gap: 2em;
 }
 
-.img-grid {
+.img-grid-grid {
     max-width: 600px;
 }
 
@@ -390,13 +390,17 @@ img {
 }
 
 .overview div p {
-    font-size: 1.3rem;
+    font-size: 1.43rem;
 }
 
 .sec-img img {
     object-position: center top;
     height: 54em;
     /* width: 93%;*/
+}
+
+.pad {
+    padding: 70px 0px 0px 0px;
 }
 
 .footer {
