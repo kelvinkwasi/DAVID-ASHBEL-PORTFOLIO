@@ -51,6 +51,7 @@ header {
     margin: 0 auto;
     border-radius:  1em;
     border: 0.5px solid; 
+    z-index: 1;
 }
 
 nav ul {
@@ -135,6 +136,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding-top: 5em;
 }
 
 .vid-wrapper {
